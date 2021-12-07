@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'Grold Rounded Slim Regular';
+    src: url('Fonts/GroldRoundedSlim-Regular.eot');
+    src: local('Fonts/GroldRoundedSlim-Regular'), local('Fonts/GroldRoundedSlim-Regular'),
+        url('Fonts/GroldRoundedSlim-Regular.eot?#iefix') format('Fonts/embedded-opentype'),
+        url('Fonts/GroldRoundedSlim-Regular.woff2') format('woff2'),
+        url('Fonts/GroldRoundedSlim-Regular.woff') format('woff'),
+        url('Fonts/GroldRoundedSlim-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body
+{
+  /* font-family: 'Montserrat', sans-serif; */
+  font-family: 'Ubuntu', sans-serif;
+}
+h1
+{
+  /* font-family: 'Montserrat, sans-serif'; */
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+#Home
+{
+  background-color: #FEFBF3;
+}
+
+/* navigation bar */
+.navbar-brand
+{
+  font-size: 2rem;
+}
+.nav-item
+{
+  padding: 0px 5px;
+}
+.btn-bd-download
+{
+  font-weight: 600;
+  color: #7d5c00;
+  border-color: #7d5c00;
+  font-size: 1rem;
+  /* background-color: #b0a37f; */
+}
+
+
+/* Home Section TEJA */
+.row
+{
+  padding: 1% 3% 0% 3%;
+  font-family: 'Grold Rounded Slim Regular';
+}
+
+.col-lg-12
+{
+  text-align: center;
+  font-weight: 900;
+  font-size: 5.5rem;
+  margin: 0 auto;
+}
+
+.Myname
+{
+  margin-top : 13%;
+  font-size: 6.5rem;
+  margin-bottom: 20%;
+}
+
+.normal_text
+{
+  font-size: 5.5rem;
+  color: #00162e;
+}
+/* .body_text
+{
+  margin-top: 0%;
+  font-weight: 900;
+  font-size: 2rem;
+  color: #2b2901;
+} */
